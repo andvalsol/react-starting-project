@@ -1,7 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import './index.css';
-import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => {
+    return (
+        <div>
+            <h2>Course goals</h2>
+
+        </div>
+    )
+}
+
+export default App
